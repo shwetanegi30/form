@@ -1,0 +1,100 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #d1d9e2;
+  }
+ 
+  .form input{
+    width: 55px;
+  }
+  
+  .form label {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 18px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .form label select,
+  .form label input[type='number'] {
+    margin-top: 8px;
+    padding: 5px 10px;
+    border-radius: 18px;
+    border: none;
+    font-weight: 600;
+  }
+  .btn-btn{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .btn {
+    border-radius: 6px;
+    background-color: #1515a8fa;
+    color: white;
+    font-size: 14px;
+    padding: 6px 16px;
+    margin-right: 10px;
+    border: none;
+    /* margin-top: 20px; */
+  }
+  .icon{
+    display: flex;
+    flex-direction: column;
+  }
+  .fa-copy{
+    margin-bottom: 12px;
+  }
+  .fa-trash{
+    color: red;
+  }
+
+  .new-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1d9e2;
+  }
+  .new-form label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 18px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .display{
+    margin-top: 10px;
+  }
+  .new-form label select,
+  .new-formform label {
+    margin-top: 8px;
+    padding: 5px 10px;
+    border-radius: 18px;
+    border: none;
+    font-weight: 600;
+    background-color: #1515a8fa;
+    color: white;
+    margin-right: 6px;
+  }
+  .new-form input[type='number']{
+    margin-top: 8px;
+    padding: 5px 10px;
+    border-radius: 18px;
+    border: none;
+    font-weight: 600;
+    width: 20%;
+    margin-right: 6px;
+  }
+
+  .final-btn{
+    background-color: #1515a8fa;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  
+
+  
